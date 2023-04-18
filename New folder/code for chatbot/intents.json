@@ -1,0 +1,189 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day","hey","whatsup"],
+         "responses": ["Hello", "Hi,Good to see you again", "Hi there, how can I help?","hello welcome"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help can do?", "What help you provide?", "How you can be helpful?", "What support is offered","can you help me"],
+         "responses": ["I am here to help the students to answer the questions related to the college website,How to login the website,where to look for the proper information that can help a student "],
+         "context": [""]
+        },
+        {"tag": "MRCET",
+         "patterns": ["tell me about mrcet","give me information about mrcet","significance of mrcet","tell me about mrcet campus"],
+         "responses": ["Malla Reddy College of Engineering & Technology (MRCET) is a constituent College of Malla Reddy Group of Institutions (MRGI) established in 2004."],
+         "context": [""]
+        },
+        {"tag": "name",
+         "patterns": ["what is your name","do you have a name","what should i call you","tell me your name","what can i call you"],
+         "responses": ["you can call me mrcet bot","im AI chatbot"],
+         "context": [""]
+        },
+        {"tag": "hours",
+         "patterns": ["what are the timings of college","working days","college timings","when does the classes start","tell me the college timings" ],
+         "responses": ["College timings are from 9:30am to 4:00pm"],
+         "context": [""]
+        },
+        {"tag": "Branches",
+         "patterns": ["what are the courses offered in mrcet","tell me about the courses offered in mrcet","give me the list of courses in mrcet","list if courses offered"],
+         "responses": ["The College offers Engineering courses (B.Tech.) in AE, CSE, CSE(AI&ML), CSE(CS), CSE(IOT), CSE(DS), AI&ML, AI&DS, ECE, EEE, IT, MECH disciplines and Post Graduate (M.Tech.) courses in ECE, CSE, MECH and AE specializations in addition to MBA programmes."],
+         "context": [""]
+        },
+        {"tag": "ET-department",
+         "patterns": ["who is the HOD of cse-ds","who is the hod of IOT","who is the hod of CSE-CS","who is the head for Emerging technologies","who is the hod for ET-department" ],
+         "responses": ["Dr.M. V. Kamal\nHOD-Allied Branches of CSE"],
+         "context": [""]
+        },
+        {"tag": "IT-department",
+        "patterns": ["who is the HOD of IT department","it hod"],
+        "responses": ["Dr.G.Sharadha\n HOD of IT"],
+        "context": [""]
+        },
+        {"tag": "CSE-department",
+        "patterns": ["who is the HOD of CSE department" ],
+        "responses": ["Dr.S.Shanthi\nHOD of CSE"],
+        "context": [""]
+        },
+        {"tag": "ECE-department",
+        "patterns": ["who is the HOD of ECE department"],
+        "responses": ["Dr.K.Mallikarjuna Lingam\nHOD of ECE"],
+        "context": [""]
+        },
+        {"tag": "EEE-department",
+        "patterns": ["who is the HOD of EEE department"],
+        "responses": ["Dr.M.Sharanya\nHOD of EEE"],
+        "context": [""]
+        },
+        {"tag": "departments",
+         "patterns": ["what courses are available","what courses are provided in the institute","department names","what are the departments","tell me about the departments","what are the available departments"],
+         "responses": ["Humanities and Sciences(H&S)\n Aeronautical Engineering\n Artificial Intelligence & Machine learning\n Artificial Intelligence & DataScience\n CSE-computer science and engineering\n CSE-artificial intelligence & machine learning\n CSE-data science\n CSE-internet of things\n CSE-cyber security\n electronics & communication engineering\n electrical & electronics engineering\n information technology\n mechanical engineering\n master of business administration\n M.Tech courses"],
+         "context": [""]
+        },
+        {"tag": "Principal",
+         "patterns": ["who is the principal of mrcet?","Principal of the college"],
+         "responses": ["Dr. S Srinivasa Rao is the principal of MRCET"],
+         "context": [""]
+        },
+        {"tag": "Admission",
+         "patterns": ["What is the admission process of mrcet?","admission process","fee details","process of admission","admission"],
+         "responses": ["for the details please visit https://mrcet.com/Programmes.html"],
+         "context": [""]
+        },
+        {"tag": "Timings",
+         "patterns": ["What are the college timings?","college timing","what is the college working timings?"],
+         "responses": ["The college working houres are from 9:30am to 4:00pm \n  Monday-Saturday"],
+         "context": [""]
+        },
+        {"tag": "New courses",
+         "patterns": ["what are the new courses in college?","new courses"],
+         "responses": ["Data science \n Cyber Security \n AIML \n IOT \n AI-DS \n AI"],
+         "context": [""]
+        },
+        {"tag": "greetings",
+         "patterns": ["how are you","how are you bot","how are you doing"],
+         "responses": ["im good","im fine"],
+         "context": [""]
+        },
+         {"tag": "login",
+         "patterns": ["how to login to college wedsite","how can i login to college wedsite","login process","tell me login process"],
+         "responses": ["Login process: search for college \n wedsite in google \n1. MRCET STUDENT LOGIN \n 2.mrceterp \n 3.WWW.MRCET STUDENT LOGIN"],
+         "context": [""]
+        },
+         {"tag": "failed login",
+         "patterns": ["i have issues to login to college website","iam unable to login to college website","im having problems with login","failed to login to college website"],
+         "responses": ["Please contact the admin block for \n further help to solve login failure"],
+         "context": [""]
+        },
+        {"tag": "Highest LPA",
+        "patterns": ["what is the highest package","highest package received"],
+        "responses": ["30 LPA is the highest package received by a student from IT department"],
+        "context": [""]
+       },
+       {"tag": "average package",
+       "patterns":["what is the average LPA","average lpa that student receives"],
+       "responses": ["Average package is 4 t0 5 LPA"],
+       "context": [""]
+       },
+       {"tag": "Sports",
+       "patterns": ["is the ground facility availabe","games that are available"],
+       "responses": ["There is the availability of Indoor and Outdoor Games"],
+       "context": [""]
+       },
+
+       {"tag": "Placements",
+       "patterns": ["Companies that visit the college","companies that come to college" ],
+       "responses": ["Companies that visit college for placements are wipro,tcs,accenture,hcl and many more"],
+       "context": [""]
+       },
+       {"tag": "Hostel",
+       "patterns": ["is there any hostel facility"],
+       "responses": ["There are hostels for both boys and girls with good facilities"],
+       "context": [""]
+       },
+       {"tag": "Bus",
+       "patterns": ["is there any transportation to college by bus","bus facility"],
+       "responses": ["College provides bus facility with less amount of fees"],
+       "context": [""]
+       },
+       {"tag": "Library",
+       "patterns": ["What about library in the college" ],
+       "responses": ["there is a library which has many kinds of books including many advanced books "],
+       "context": [""]
+       },
+       {"tag": "Cultural-Events",
+       "patterns": ["will there be any cultural events","will there be any fests" ],
+       "responses": ["There will be fests and annual day once per a year and freshers,farewell within in the individual department"],
+       "context": [""]
+       },
+       {"tag": "Hackathons",
+       "patterns": ["Will there be any hackathons" ,"will there be any coding exercises"],
+       "responses": ["MRCET allows students to participate in hackathons and coding exercise which may be within in the campus or in another colleges"],
+       "context": [""]
+       },
+       {"tag": "Abroad-Studies",
+       "patterns": ["does the college support the students to study abroad" ],
+       "responses": ["MRCET encourages and gives guidance to students and provides them a good path"],
+       "context": [""]
+       },
+       {"tag": "Mech-HOD",
+       "patterns": ["hod of mechanical department" ],
+       "responses": ["Dr.Srikar Potnuru\n is the HOD of Mechanical department"],
+       "context": [""]
+       },
+       {"tag": "Aero-HOD",
+       "patterns": ["hod of Aeronautical department" ],
+       "responses": ["Dr.Misba Mehdi\nis the HOD of Aeronautical department"],
+       "context": [""]
+       },
+       {"tag": "Internship",
+       "patterns": ["does college allow students to take internships" ],
+       "responses": ["MRCET allows students to take internships"],
+       "context": [""]
+       },
+       {"tag": "Labs",
+       "patterns": ["Are there any labs in college" ],
+       "responses": ["College provides lab facility for a particular subject in the semester"],
+       "context": [""]
+       },
+       {"tag": "website",
+       "patterns": ["mrcet website ","about mrcet website","website" ],
+       "responses": ["www.mrcet.ac.in"],
+       "context": [""]
+       }
+]
+}
